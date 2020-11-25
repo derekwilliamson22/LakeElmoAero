@@ -1,0 +1,25 @@
+.example-custom-input {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+.step-icon {
+  width: 30px;
+}
+
+.step-display {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid black; */
+  border-width: 50%;
+}
+
+#react-root > div > div:nth-child(2) > div > div > div.row.mb-5 > section > div.card.mb-4 > 
+div.react-datepicker__tab-loop > div.react-datepicker-popper > div > div > 
+div.react-datepicker__time-container.react-datepicker__time-container--with-today-button {
+  transform: translateX(11px);
+}
